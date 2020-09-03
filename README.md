@@ -1,5 +1,5 @@
 # webdev
-Learning Web Development through an online course
+I am learning Web Development through an online course.
 
 The code I am putting here will initially be my code from an online course from developedbyed.com.
 
