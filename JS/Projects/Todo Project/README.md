@@ -3,6 +3,7 @@ My Todo List Website.
 Netlify deployment link: https://happy-ptolemy-e70485.netlify.app/
 
 This is a simple todo list creation tool I made from an online course.
+
 The functionality implemented:
 - Adding todo's to the list
 - Marking todo list items as completed
