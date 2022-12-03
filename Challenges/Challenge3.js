@@ -3,7 +3,11 @@
 // Main Program
 console.log(repeatString("hello", 3));
 console.log(repeatString("hello", 1));
-console.log(repeatString("hello", 0));
+console.log(repeatString("hello", 0)); // doesn't print anything
+
+console.log(repeatStringWithUndefined("hello", 3));
+console.log(repeatStringWithUndefined("hello", 1));
+console.log(repeatStringWithUndefined("hello", 0)); // shows that it is undefined
 
 // Function Definitions
 function repeatString(string, repeatNum){
