@@ -7,7 +7,7 @@ console.log(repeatString("hello", 0));
 
 // Function Definitions
 function repeatString(string, repeatNum){
-  // if repeat is less than one, return undefined
+  // if repeat is less than one, return empty string
   if (repeatNum < 1){
     return "";
   }
