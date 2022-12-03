@@ -12,7 +12,5 @@ function repeatString(string, repeatNum){
     return "";
   }
 
-  if (typeof(repeatString(string, repeatNum -1)) !== undefined){
-    return string + repeatString(string, repeatNum - 1);
-  }
+  return string + repeatString(string, repeatNum - 1);
 }
