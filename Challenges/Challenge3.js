@@ -14,3 +14,17 @@ function repeatString(string, repeatNum){
 
   return string + repeatString(string, repeatNum - 1);
 }
+
+function repeatStringWithUndefined(string, repeatNum){
+  // if repeat is less than one, return undefined
+  if (repeatNum < 1){
+    return undefined;
+  }
+
+  if (repeatStringWithUndefined(string, repeatNum - 1) != null){
+    return string + repeatStringWithUndefined(string, repeatNum - 1);
+  }
+  else{
+    return string;
+  }
+}
